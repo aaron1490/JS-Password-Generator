@@ -27,7 +27,7 @@ do {  // do while loop used to reprompt user, if they aren't choosing a number b
   } if (isNaN(length)) { // if user inputs anything other than a number, then they will be returned an alert stating that a number is required
         alert("Please type a number!");
       }
-} while (length < minLen || length > maxLen || isNaN(length))
+} while (length < minLen || length > maxLen || isNaN(length)) // set of confirms that the user has to action in order to select what they would like to include in their generated password
   var upperCase = confirm("Would you like to include upper case characters in your password?") // confirmation if user would like upper case in their password
   var lowerCase = confirm("Would you like to include lower case characters in your password?") // confirmation if user would like lower case in their password
   var number = confirm("Would you like to include numbers in your password?") // confirmation if user would like numbers in their password
@@ -40,7 +40,7 @@ do {  // do while loop used to reprompt user, if they aren't choosing a number b
 }
 
 
-// array that joins all the character sets that have been selected by the user
+// array that joins all the character sets that have been selected by the user (only the ones that have been selected via the above confirms)
 function userOptions(upper, lower, num, spec, finalOptions) {
   var { lowerCase, upperCase, number, special } = finalOptions;
   var userArray = [];
@@ -53,7 +53,7 @@ function userOptions(upper, lower, num, spec, finalOptions) {
   } if (special) {
     userArray.push(...spec);
   }
-  console.log(userArray);
+  // console.log(userArray);
   return userArray
 } 
 
@@ -66,7 +66,7 @@ function getRandom(userArray) {
 
 // Function to generate password with user input
 function generatePassword(length, userArray) {
-  let passwordArray = [];
+  let passwordArray = []; // new array for the user's final password, array is empty to start with, the below for loop will iterate through the length of the chosen password length and push new characters into the new array
   for (let i = 0; i < length; i++) {
     passwordArray.push(getRandom(userArray));
   }
@@ -75,6 +75,7 @@ function generatePassword(length, userArray) {
 
 
 // Write password to the #password input
+// I've placed all the variables inside of the writePassword function as this then ensures the pages is displayed and user has to press the 'Generate Password' button before the prompts start running
 function writePassword() {
   const finalOptions = getPasswordOptions();
   var userArray = userOptions( upperCasedCharacters, lowerCasedCharacters, numericCharacters, specialCharacters, finalOptions );
