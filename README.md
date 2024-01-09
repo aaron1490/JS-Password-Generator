@@ -22,7 +22,7 @@ The password can include special characters. If you’re unfamiliar with these, 
 
 ## Instructions/Demo for user
 
-1. Open the page from the [deployed link](www) - See the below image for reference.
+1. Open the page from the [deployed link](TO BE COMPLETED) - See the below image for reference.
 
     ![Page Demo](/assets/demo.JPG)
 
@@ -34,7 +34,16 @@ The password can include special characters. If you’re unfamiliar with these, 
 
     ![Completed Demo](/assets/completed.JPG)
 
+## Contact
 
+Feel free to contact me if you have any questions or just want to connect:
+* [Click here to email me!](mailto:aaronarmstrong1490@gmail.com)
+* [Connect with me on LinkedIn](https://www.linkedin.com/in/aaron-armstrong-%E8%89%BE%E4%BF%8A%E6%A8%82-80986ba5/)
+
+## Links
+
+* [Link to the code repository on GitHub](https://github.com/aaron1490/JS-Password-Generator)
+* [Link to the deployed page](TO BE COMPLETED)
 
 ## Instructions
 
