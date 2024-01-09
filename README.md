@@ -2,9 +2,39 @@
 
 ## Overview
 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+In this week’s challenge I've been tasked with creating an application that an employee can use to generate a random password based on criteria they’ve selected. This has been achieved by modifying the starter code. 
+
+This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that I've written. It has a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
 The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+
+## Technologies Used
+
+* HTML
+* JavaScript
+* CSS
+
+## Project Structure
+
+* **index.html** - The HTML file containing the main structure of the application.
+* **script.js** - The JavaScript file that contains all the JS functions, loops and arrays for the application.
+* **style.css** - The CSS file containing all the styling for the entire application.
+
+## Instructions/Demo for user
+
+1. Open the page from the [deployed link](www) - See the below image for reference.
+
+    ![Page Demo](/assets/demo.JPG)
+
+2. Click on the 'Generate Password' button, you'll be faced with some prompts which will determine what your password will include.
+
+    ![Prompt Example Demo](/assets/prompt.JPG)
+
+3. Your password once generated will populate to the text box as below:
+
+    ![Completed Demo](/assets/completed.JPG)
+
+
 
 ## Instructions
 
