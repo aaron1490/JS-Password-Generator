@@ -22,7 +22,7 @@ The password can include special characters. If you’re unfamiliar with these, 
 
 ## Instructions/Demo for user
 
-1. Open the page from the [deployed link](TO BE COMPLETED) - See the below image for reference.
+1. Open the page from the [deployed link](https://aaron1490.github.io/JS-Password-Generator/) - See the below image for reference.
 
     ![Page Demo](/assets/demo.JPG)
 
@@ -43,7 +43,7 @@ Feel free to contact me if you have any questions or just want to connect:
 ## Links
 
 * [Link to the code repository on GitHub](https://github.com/aaron1490/JS-Password-Generator)
-* [Link to the deployed page](TO BE COMPLETED)
+* [Link to the deployed page](https://aaron1490.github.io/JS-Password-Generator/)
 
 ## Instructions
 
